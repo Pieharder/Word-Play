@@ -17,5 +17,11 @@ $(document).ready(function () {
       }
     });
     console.log(over3);
+
+    over3.reverse();
+    console.log(over3)
+
+    var results = over3.join(" ")
+    alert(results)
   });
 });
